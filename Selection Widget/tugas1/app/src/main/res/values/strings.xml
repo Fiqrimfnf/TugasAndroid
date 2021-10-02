@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Tugas</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+    <string-array name="Provinsi">
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Jambi</item>
+        <item>Sumatera Selatan</item>
+        <item>Bengkulu</item>
+        <item>Lampung</item>
+        <item>Kepulauan Bangka Belitung</item>
+        <item>Kepulauan Riau</item>
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>D.I. Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Banten</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Sulawesi Utara</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Selatan</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Gorontalo</item>
+        <item>Sulawesi Barat</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua</item>
+        <item>Papua Barat</item>
+    </string-array>
+
+    <string-array name="bahasa">
+        <item>Indonesia</item>
+        <item>English</item>
+        <item>Italian</item>
+        <item>Germany</item>
+    </string-array>
+
+    <string-array name="Hari">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>JUmat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+</resources>
