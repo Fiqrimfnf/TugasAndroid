@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bf"
+    android:padding="20dp">
+
+
+    <!-- membuat fitur scroll -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <!-- membuat linear layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- menambahkan gambar -->
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gambar2" />
+
+        <!-- menambahkan sebuah teks -->
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Maulana Fiqri Nurul Fawaid"
+            android:textColor="@color/white" />
+
+        <!-- menambahkan sebuah teks -->
+        <TextView
+            style="@style/TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="MFNF"
+            android:textColor="@color/white"
+            android:textStyle="italic" />
+
+        <!--menambahkan sebuah button untuk whatsapp-->
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#a83fa2"
+            android:text="Whatsapp"
+            android:onClick="Whatsapp"/>
+
+        <!--menambahkan sebuah button untuk instagram-->
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#a83fa2"
+            android:text="Instagram"
+            android:onClick="Instagram"/>
+
+        <!--menambahkan sebuah button untuk youtube-->
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#a83fa2"
+            android:text="Youtube"
+            android:onClick="Youtube"/>
+
+        <!--menambahkan sebuah button untuk TELEGRAM-->
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#a83fa2"
+            android:text="Telegram"
+            android:onClick="Telegram"/>
+
+        <!--menambahkan sebuah button untuk linkedln-->
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#a83fa2"
+            android:text="Linkedln"
+            android:onClick="Linkedln"/>
+
+        <!--menambahkan sebuah button untuk twitter-->
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#a83fa2"
+            android:text="Twitter"
+            android:onClick="Twitter"/>
+
+        <!--menambahkan sebuah button untuk about-->
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#a83fa2"
+            android:text="about"
+            android:onClick="About"/>
+
+        <!--menambahkan sebuah footer-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginTop="70dp"
+            android:text="By Maulana Fiqri"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/detail"
+    android:padding="20dp"
+    android:background="@drawable/bgp"
+    tools:context=".AboutActivity">
+
+    <!-- membuat fitur scroll -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <!-- membuat linear layout -->
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+         <!-- menambahkan gambar -->
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="225dp"
+            android:src="@drawable/gambar1" />
+
+         <!-- menambahkan sebuah teks -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="31dp"
+            android:gravity="center"
+            android:text="Nama : Maulana Fiqri Nurul Fawaid"
+            android:textSize="20sp" />
+
+         <!-- menambahkan sebuah teks -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="NIM : E41200105"
+            android:textSize="20sp" />
+
+         <!-- menambahkan sebuah teks -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="TIF A 2020 "
+            android:textSize="20sp" />
+
+         <!--menambahkan sebuah footer-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginTop="255dp"
+            android:text="By Maulana Fiqri"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
